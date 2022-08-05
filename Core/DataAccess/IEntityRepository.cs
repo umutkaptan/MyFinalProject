@@ -1,10 +1,11 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+
+namespace Core.DataAccess
 {   //Generic Repository Design Pattern
     //class:Referans tip olabilir demek.
     //IEntity:Bu IEntity olabilir veya IEntityi implemente eden nesne olabilir demektir.
